@@ -95,8 +95,19 @@ const Projects = () => {
       imageUrl: 'portfolio.png',
       contribution: 'Individual'
     },
-    {
+        {
       id: 4,
+      title: 'LifeDrop – Blood Donation Platform',
+      description: 'A platform connecting hospitals, donors, and admins to ensure timely blood donation and availability.',
+      technologies: ['ReactJS', 'Tailwind CSS', 'Ballerina', 'MySQL'],
+      githubUrl: 'https://github.com/AnjanaNimesh/iwb25-102-codevibe',
+      status: 'Completed',
+      category: 'Web App',
+      imageUrl: 'lifedrop.png',
+      contribution: 'Group'
+    },
+    {
+      id: 5,
       title: 'Stray Care - Community Platform',
       description: 'Stray Care is a web application that supports stray animal welfare by allowing users to report, register, and help stray dogs and cats, while connecting volunteers for care and donations.',
       technologies: ['ReactJS', 'Tailwind CSS', 'Ballerina', 'MongoDB'],
